@@ -6,5 +6,10 @@ namespace v0518
         {
             InitializeComponent();
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            button1.Left = button1.Left + 10;
+        }
     }
 }
